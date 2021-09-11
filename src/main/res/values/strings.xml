@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BublicCounter</string>
+    <string name="txt_bublics">БУБЛИКОВ</string>
+    <string name="btn_bublics">ДОБАВИТЬ БУБЛИК</string>
+    <string name="start_text">0</string>
+</resources>

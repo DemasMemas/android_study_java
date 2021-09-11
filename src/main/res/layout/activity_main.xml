@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ground"
+        android:gravity="center"
+        android:text="@string/start_text"
+        android:textColor="@color/pink"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/bublic_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_bublics"
+        android:textColor="@color/button" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:onClick="onClickBtnAddStudents"
+        android:text="@string/btn_bublics"
+        android:textColor="@color/text"
+        app:iconTint="@color/button"
+        app:strokeColor="@color/button" />
+
+</LinearLayout>
